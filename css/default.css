@@ -1,0 +1,59 @@
+h1,
+h2.h3 {
+  line-height: 1;
+}
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+body {
+  line-height: 1.7;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: var();
+  font-weight: var();
+  color: 000;
+  font-size: 1.6rem;
+  background-color: var();
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  display: block;
+  width: 100%;
+}

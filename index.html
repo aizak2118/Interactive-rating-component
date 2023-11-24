@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/styles.css">
+
+  <title>Frontend Mentor | Interactive rating component</title>
+</head>
+
+<body>
+  <main>
+    <!-- Rating state start -->
+    <section class="rating p-32">
+      <div class="star-circle"><img src="./images/icon-star.svg" alt=""></div>
+      <h1 class="rating__title mt-30 heading-l white">How did we do?</h1>
+      <p class="rating__desc mt-7 body-text">Please let us know how we did with your support request. All feedback is appreciated
+        to help us improve our offering!</p>
+      <div class="rating__score mt-24 flex">
+        <button class="score-circle rating-text"><span>1</span></button>
+        <button class="score-circle rating-text"><span>2</span></button>
+        <button class="score-circle rating-text"><span>3</span></button>
+        <button class="score-circle rating-text"><span>4</span></button>
+        <button class="score-circle rating-text"><span>5</span></button>
+      </div>
+      <button class="submit-button mt-32 heading-m">Submit</button>
+    </section>
+
+    <!-- Thank you state start -->
+    <section class="thank-you p-32 flex">
+      <img src="./images/illustration-thank-you.svg" alt="" class="thank-you__img">
+      <p class="your-selected mt-32 body-text">You selected<span class="your-rating">4</span>out of 5</p>
+      <h1 class="thank-you__title mt-32 heading-l white">Thank you!</h1>
+      <p class="thank-you__message mt-7 body-text">We appreciate you taking the time to give a rating. If you ever need more support,
+        don't hesitate to get in touch!</p>
+    </section>
+  </main>
+
+  <script src="./main.js"></script>
+</body>
+
+</html>
